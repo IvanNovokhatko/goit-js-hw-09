@@ -97,10 +97,3 @@ let galleryLightBox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
 });
-galleryLightBox.on('show.simplelightbox', function () {
-	// Do something…
-});
-
-galleryLightBox.on('error.simplelightbox', function (e) {
-	console.log(e); // Some usefull information
-});
